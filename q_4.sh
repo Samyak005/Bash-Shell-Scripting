@@ -1,0 +1,1 @@
+xargs -a to_delete.txt| sed 's/\>/.txt/g'| sed 's/[^ ]* */delete\/&/g' | xargs rm --
